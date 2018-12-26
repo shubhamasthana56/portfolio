@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" (click)="collapse=!collapse" type="button" data-toggle="collapse">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" [ngbCollapse] = "collapse">
+    <div class="container-fluid">
+    <ul class="navbar-nav justify-content-end mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Destination <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Engaged <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item active">
+          <a class="nav-link" href="#">Wedding <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Contact <span class="sr-only"></span></a>
+          </li>
+    </ul>
+    </div>
+  </div>
+</nav>
